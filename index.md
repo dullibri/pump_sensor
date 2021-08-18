@@ -7,10 +7,12 @@ enough time for maintenance work. This will *reduce* downtimes and *costs* as co
 - A composite indicator based on the number of sensors that significantly deviate from their normal behaviour would necessitate an objective rule that is hard to find and lead to many falls alarms. 
 - Predicting breakdowns directly through an AI model is not reliable enough and testing is difficult as only few breakdowns are available. 
 - An indicator based on the probabilities of the same predictions is promising.
+
 ## Resources 
 **There is a slide show**! Obviously, there is a [notebook](https://github.com/dullibri/pump_sensor/blob/main/pump_sensors.ipynb) containing the steps and a [requirements.txt](https://github.com/dullibri/pump_sensor/blob/main/requirements.txt) to replicate the results. 
 As a bonus, you also find an [html presentation](https://github.com/dullibri/pump_sensor/blob/main/pump_sensors.slides.html) produced with jupyter slides.
 Make sure to download it to view it properly. For completeness, the [data](https://github.com/dullibri/pump_sensor/blob/main/pump_sensors.rar) are also uploaded here.
+
 ## The Set-up: 
 - 53 sensors for one pump sending their measurements by the minute for about 153 days (~220k minutes). 
 - The aim is to predict when a pump is down as early as possible to start maintenance.
