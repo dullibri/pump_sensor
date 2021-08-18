@@ -18,7 +18,7 @@ Make sure to download it to view it properly. For completeness, the [data](https
 
 ## Approaches
 ### Looking at single indicators
-![Is this a good indicator?](https://github.com/dullibri/pump_sensor/blob/main/sensor_and_breakdowns.png?raw=true)
+![Is this a good indicator?](sensor_and_breakdowns.png?raw=true)
 
 Note: Breakdowns are depicted with solid red lines, shaded areas indicate recovery periods.
 
@@ -32,7 +32,7 @@ Note: Breakdowns are depicted with solid red lines, shaded areas indicate recove
 - How many sensors deviated
 - Here: Mean of rolling window of 2 days.
 
-![Indicator](https://github.com/dullibri/pump_sensor/blob/main/indicator_approach.png?raw=true)
+![Indicator](indicator_approach.png?raw=true)
 
 **Points to consider**
 
@@ -49,11 +49,11 @@ Note: Breakdowns are depicted with solid red lines, shaded areas indicate recove
 - Simple Logistic Regression, untuned.
 - split into 75 % Training (5 breakdowns), 25 % Test (2 breakdowns)
 
-![](https://github.com/dullibri/pump_sensor/blob/main/training_ml.png?raw=true)
+![](training_ml.png?raw=true)
 
 - However, the test result only captures one of the two breakdowns.
 
-![](https://github.com/dullibri/pump_sensor/blob/main/test.png?raw=true)
+![](test.png?raw=true)
 
 
 ## Early Warning Indicator
@@ -62,7 +62,7 @@ Note: Breakdowns are depicted with solid red lines, shaded areas indicate recove
 - Point forecasts of breakdowns failed so far.
 - Probabilities of breakdown, however, serve as early warning indicator.
 
-![](https://github.com/dullibri/pump_sensor/blob/main/early_indicator.png?raw=true)
+![](early_indicator.png?raw=true)
 
 ## Next Steps
 
